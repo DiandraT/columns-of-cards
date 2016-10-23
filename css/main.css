@@ -14,17 +14,18 @@ body {
 /** TITLE **/
 
 h2 {
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2rem;
   text-align: center;
 }
 
-/** FIRST COLUMN**/
+/** FIRST COLUMN **/
 
 .cardone {
   background-color: #f2f2f2;
   border-left: 1px solid #333;
   padding-bottom: 3rem;
+  padding-right: 1rem;
 }
 
 img {
@@ -35,33 +36,19 @@ img {
 }
 
 h3 {
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   margin-bottom: .5rem;
 }
 
 cite {
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: .875rem;
 }
 
 p {
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-top: .5rem;
-}
-
-/** BUTTON **/
-
-.btn {
-  display: inline-block;
-  padding: .75rem .85rem .75rem;
-  background-color: #333;
-  border-radius: 10px;
-
-  color: #fff;
-  text-decoration: none;
-  font-family: Open Sans, sans-serif;
-
 }
 
 .btn-small,
@@ -69,4 +56,55 @@ cite,
 p,
 h3 {
   margin-left: .75rem;
+}
+
+/** CARD TWO **/
+
+.cardtwo {
+  background-color: #e2e2e2;
+  border-left: 1px solid #333;
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+}
+
+/** CARD THREE **/
+
+.cardthree {
+  background-color: #ccc;
+  border-left: 1px solid #333;
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+}
+
+/** CARD FOUR **/
+
+.cardfour {
+  background-color: #aaa;
+  border-left: 1px solid #333;
+  padding-bottom: 3rem;
+  padding-right: 1rem;
+}
+
+/** BUTTON **/
+
+.btn {
+  display: inline-block;
+  padding: .75rem .85rem;
+  background-color: #333;
+  border-radius: 10px;
+
+  color: #fff;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.btn:hover {
+  background-color: #999;
+}
+
+.all-columns {
+  float: left;
+  width: 25%;
+  display: inline-block;
 }
