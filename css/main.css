@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -37,7 +36,7 @@ img {
   width: 100px;
   display: block;
   margin: 0 auto 1.5rem;
-  padding-top: .75rem;
+  margin-top: 0;
 }
 
 h3 {
@@ -80,7 +79,7 @@ h3 {
 /** CARD THREE **/
 
 .cardthree {
-  background-color: #999;
+  background-color: #aaa;
   border-left: 1px solid #333;
   padding-bottom: 3rem;
   padding-top: 1rem;
@@ -93,7 +92,7 @@ h3 {
 /** CARD FOUR **/
 
 .cardfour {
-  background-color: #aaa;
+  background-color: #999;
   border-left: 1px solid #333;
   border-right: 1px solid #333;
   padding-bottom: 3rem;
@@ -107,20 +106,24 @@ h3 {
 
 /** BUTTON **/
 
+.btn-small {
+  margin-top: 1rem;
+}
+
 .btn {
   display: inline-block;
   padding: .5rem .75rem;
   background-color: #333;
-  border-radius: 10px;
+  border-radius: 7px;
 
-  color: #fff;
+  color: #f2f2f2;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   font-size: .875rem;
 }
 
 .btn:hover {
-  background-color: #f2f2f2;
+  background-color: #000;
 }
 
 .all-columns {
