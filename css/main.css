@@ -28,6 +28,8 @@ h2 {
   padding-top: 1rem;
   padding-right: 1rem;
 
+  min-height: 200px;
+
   float: left;
   width: 25%;
 
@@ -73,6 +75,8 @@ h3 {
   padding-top: 1rem;
   padding-right: 1rem;
 
+  min-height: 200px;
+
   float: left;
   width: 25%;
 }
@@ -85,6 +89,8 @@ h3 {
   padding-bottom: 3rem;
   padding-top: 1rem;
   padding-right: 1rem;
+
+  min-height: 200px;
 
   float: left;
   width: 25%;
@@ -99,6 +105,8 @@ h3 {
   padding-bottom: 3rem;
   padding-top: 1rem;
   padding-right: 1rem;
+
+  min-height: 200px;
 
   float: left;
   width: 25%;
@@ -129,5 +137,4 @@ h3 {
 .all-columns {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
-  min-height: 100px;
 }
