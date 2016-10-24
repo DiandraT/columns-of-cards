@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -22,9 +23,10 @@ h2 {
 /** FIRST COLUMN **/
 
 .cardone {
-  background-color: #f2f2f2;
+  background-color: #e2e2e2;
   border-left: 1px solid #333;
   padding-bottom: 3rem;
+  padding-top: 1rem;
   padding-right: 1rem;
 
   float: left;
@@ -65,9 +67,10 @@ h3 {
 /** CARD TWO **/
 
 .cardtwo {
-  background-color: #e2e2e2;
+  background-color: #ccc;
   border-left: 1px solid #333;
   padding-bottom: 3rem;
+  padding-top: 1rem;
   padding-right: 1rem;
 
   float: left;
@@ -77,9 +80,10 @@ h3 {
 /** CARD THREE **/
 
 .cardthree {
-  background-color: #ccc;
+  background-color: #999;
   border-left: 1px solid #333;
   padding-bottom: 3rem;
+  padding-top: 1rem;
   padding-right: 1rem;
 
   float: left;
@@ -93,28 +97,30 @@ h3 {
   border-left: 1px solid #333;
   border-right: 1px solid #333;
   padding-bottom: 3rem;
+  padding-top: 1rem;
   padding-right: 1rem;
 
   float: left;
   width: 25%;
+
 }
 
 /** BUTTON **/
 
 .btn {
   display: inline-block;
-  padding: .75rem;
+  padding: .5rem .75rem;
   background-color: #333;
   border-radius: 10px;
 
   color: #fff;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
-
+  font-size: .875rem;
 }
 
 .btn:hover {
-  background-color: #999;
+  background-color: #f2f2f2;
 }
 
 .all-columns {
