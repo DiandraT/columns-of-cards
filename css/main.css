@@ -30,6 +30,7 @@ h2 {
 
   float: left;
   width: 25%;
+
 }
 
 img {
@@ -47,7 +48,7 @@ h3 {
 }
 
 cite {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: .875rem;
 }
 
@@ -74,6 +75,7 @@ h3 {
 
   float: left;
   width: 25%;
+
 }
 
 /** CARD THREE **/
@@ -87,6 +89,7 @@ h3 {
 
   float: left;
   width: 25%;
+
 }
 
 /** CARD FOUR **/
@@ -129,4 +132,5 @@ h3 {
 .all-columns {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
+  min-height: 100px;
 }
